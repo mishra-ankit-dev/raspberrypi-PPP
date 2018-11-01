@@ -4,11 +4,9 @@ First of all coneect the GSM Module with Pi(you can choose any method i.e serial
 
 GSM pins  =>  Pi pins
 
-   Tx     =>    Rx
-
-   Rx     =>    Tx
-
-   GND    =>    GND
+    Tx     =>    Rx
+    Rx     =>    Tx
+    GND    =>    GND
    
 Now connect the power supply to the GSM module (in my case it is SIM 900A) via suitable adapter (recommended 1 Amp). 
 If all the above setup is complete run the python script to check if the connection is good and module is able to communicate with Pi. 
