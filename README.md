@@ -31,10 +31,10 @@ An Access Point Name (APN) is the name of a gateway between a GSM/GPRS network a
 After you know your APN we have to disable the serial interface by navigating to menu ==> Preferences ==> Raspberry Pi Configuration ==> interface ==> disable serial. 
 
 To move further you should have working internet connection to Pi. 
-Execute following command to update the operating system. 
+Execute following command to update the operating system
 
    sudo apt-get update
-Then execute given below command to install PPP softwares.
+Then execute given below command to install PPP softwares
 
    sudo apt-get install ppp screen elinks
 Further steps needs to be executed as root so login to your root account by executing 
