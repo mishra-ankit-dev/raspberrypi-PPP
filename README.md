@@ -9,6 +9,7 @@ GSM pins   =>   Pi pins
     GND    =>    GND
     
 To check if connected execute following command and search for something like ttyS0 (for serial), ttyUSB0 (for usb) or ttyAMA0 (for uart)  
+
     sudo ls /dev/tty*
  
 Now connect the power supply to the GSM module (in my case it is SIM 900A) via suitable adapter (recommended 1 Amp). 
