@@ -15,9 +15,11 @@ If all the above setup is complete run the python script to check if the connect
 You can run a python script named gsm_test.py by executing following command:
 
 For python 2 :
+
     sudo python gsm_test.py
     
 For python 3 :
+
     sudo python3 gsm_test.py
     
 If you get "OK" as the response then its all good else check steps again. 
