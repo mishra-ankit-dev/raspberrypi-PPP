@@ -35,7 +35,6 @@ Execute following command to update the operating system.
 Then execute given below command to install PPP softwares.
 
    sudo apt-get install ppp screen elinks
-   
 Further steps needs to be executed as root so login to your root account by executing 
 
     sudo -i
@@ -49,4 +48,5 @@ Well now everything is setup now we need to create the PPP connection by executi
     sudo pon rnet
     
 In case you want to disable PPP connection execute following command. 
+
     sudo poff rnet
