@@ -2,7 +2,7 @@
 
 First of all coneect the GSM Module with Pi(you can choose any method i.e serial, UART, USB).  To connect serially follow the below instructions.  
 
-GSM pins   =>   Pi pins
+GSM pins    =>    Pi pins
 
     Tx     =>    Rx
     Rx     =>    Tx
