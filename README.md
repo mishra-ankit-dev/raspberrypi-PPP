@@ -7,7 +7,10 @@ GSM pins   =>   Pi pins
     Tx     =>    Rx
     Rx     =>    Tx
     GND    =>    GND
-   
+    
+To check if connected execute following command and search for something like ttyS0 (for serial), ttyUSB0 (for usb) or ttyAMA0 (for uart)  
+    sudo ls /dev/tty*
+ 
 Now connect the power supply to the GSM module (in my case it is SIM 900A) via suitable adapter (recommended 1 Amp). 
 If all the above setup is complete run the python script to check if the connection is good and module is able to communicate with Pi. 
 You can run a python script named gsm_test.py by executing following command:
