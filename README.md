@@ -36,14 +36,14 @@ Execute following command to update the operating system
     sudo apt-get update
 Then execute given below command to install PPP softwares
 
-   sudo apt-get install ppp screen elinks
+    sudo apt-get install ppp screen elinks
 Further steps needs to be executed as root so login to your root account by executing 
 
     sudo -i
 Now navigate to /etc/ppp/peers/ and open a file named "rnet" by executing following commands 
 
-   cd /etc/ppp/peers/
-   sudo nano rnet
+    cd /etc/ppp/peers/
+    sudo nano rnet
 copy the content of rnet file in this open file and replace YOUR_NETWORK_APN with your APN you got from google. 
 Well now everything is setup now we need to create the PPP connection by executing last command. 
 
