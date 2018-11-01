@@ -33,7 +33,7 @@ After you know your APN we have to disable the serial interface by navigating to
 To move further you should have working internet connection to Pi. 
 Execute following command to update the operating system
 
-   sudo apt-get update
+    sudo apt-get update
 Then execute given below command to install PPP softwares
 
    sudo apt-get install ppp screen elinks
