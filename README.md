@@ -13,6 +13,7 @@ You can run a python script named gsm_test.py by executing following command:
 
 For python 2 :
     sudo python gsm_test.py
+    
 For python 3 :
     sudo python3 gsm_test.py
     
