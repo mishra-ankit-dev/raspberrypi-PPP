@@ -40,7 +40,7 @@ Execute following command to update the operating system
 Then execute given below command to install PPP softwares
 
     sudo apt-get install ppp screen elinks
-Further steps needs to be executed as root so login to your root account by executing 
+Further steps needs to be executed as root so login to your root account by executing the following command followed by entering password for your root account 
 
     sudo -i
 Now navigate to /etc/ppp/peers/ and open a file named "rnet" by executing following commands 
