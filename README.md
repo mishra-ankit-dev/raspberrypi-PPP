@@ -29,7 +29,7 @@ If you get "OK" as the response then its all good else check steps again.
 
 APN : Acess Point Name
 
-An Access Point Name (APN) is the name of a gateway between a GSM/GPRS network and the internet.You can get your APN by serching it on google (APN for Vodafone). 
+An Access Point Name (APN) is the name of a gateway between a GSM/GPRS network and the internet.You can get your APN by serching it on google (for example "APN for Vodafone"). 
 
 After you know your APN we have to disable the serial interface by navigating to menu ==> Preferences ==> Raspberry Pi Configuration ==> interface ==> disable serial. 
 
