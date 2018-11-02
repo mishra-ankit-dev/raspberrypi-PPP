@@ -54,3 +54,9 @@ Well now everything is setup now we need to create the PPP connection by executi
 In case you want to disable PPP connection execute following command. 
 
     sudo poff rnet
+
+If you want to enable PPP connection on every boot then you can schedule it with crontab
+    sudo crontab - e
+then select any method (recommended no.2 - nano) and add the following line to the end
+    @reboot /etc/ppp/peers/
+    @reboot sudo pon rnet
