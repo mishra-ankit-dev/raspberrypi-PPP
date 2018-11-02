@@ -62,3 +62,5 @@ then select any method (recommended no.2 - nano) and add the following line to t
 
     @reboot /etc/ppp/peers/
     @reboot sudo pon rnet
+    
+Niw every time your Pi boots it will automatically establish PPP connection. 
