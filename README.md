@@ -65,7 +65,7 @@ If you want to enable PPP connection on every boot then you can schedule it with
 
     sudo crontab - e
 
-Then select any method (recommended no.2 - nano) and add the following line to the end
+Then select any method (recommended no.2 - nano) and add the following lines to the end
 
     @reboot /etc/ppp/peers/
     @reboot sudo pon rnet
