@@ -40,6 +40,7 @@ Execute following command to update the operating system
 Then execute given below command to install PPP softwares
 
     sudo apt-get install ppp screen elinks
+
 Further steps needs to be executed as root so login to your root account by executing the following command followed by entering password for your root account 
 
     sudo -i
@@ -47,7 +48,8 @@ Now navigate to /etc/ppp/peers/ and open a file named "rnet" by executing follow
 
     cd /etc/ppp/peers/
     sudo nano rnet
-copy the content of rnet file in this open file and replace YOUR_NETWORK_APN with your APN you got from google. 
+
+Copy the content of rnet file in this open file and replace YOUR_NETWORK_APN with your APN you got from google. 
 Well now everything is setup now we need to create the PPP connection by executing last command. 
 
     sudo pon rnet
@@ -59,11 +61,13 @@ In case you want to disable PPP connection execute following command.
 If you want to enable PPP connection on every boot then you can schedule it with crontab
 
     sudo crontab - e
-then select any method (recommended no.2 - nano) and add the following line to the end
+
+Then select any method (recommended no.2 - nano) and add the following line to the end
 
     @reboot /etc/ppp/peers/
     @reboot sudo pon rnet
+
     
-Niw every time your Pi boots it will automatically establish PPP connection. You can check if PPP is established execute
+Now every time your Pi boots it will automatically establish PPP connection. You can check if PPP is established execute
 
     ifconfig
