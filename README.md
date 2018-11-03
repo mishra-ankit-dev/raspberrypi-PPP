@@ -37,6 +37,7 @@ To move further you should have working internet connection to Pi.
 Execute following command to update the operating system
 
     sudo apt-get update
+
 Then execute given below command to install PPP softwares
 
     sudo apt-get install ppp screen elinks
@@ -44,6 +45,7 @@ Then execute given below command to install PPP softwares
 Further steps needs to be executed as root so login to your root account by executing the following command followed by entering password for your root account 
 
     sudo -i
+
 Now navigate to /etc/ppp/peers/ and open a file named "rnet" by executing following commands 
 
     cd /etc/ppp/peers/
